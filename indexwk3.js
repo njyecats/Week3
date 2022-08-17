@@ -23,9 +23,12 @@ log(price);
 price.push(475000, 437000, 455000, 389000, 259900, 585000, 393000, 384000)
 log(price);
 price.splice(0, 2);
-console.log (price);
+log(price);
 price.splice(10, 3, 515000, 632000);
-console.log (price);
 log(price);
 price.pop();
 log(price);
+price.push (620000, 260000);
+log(price);
+price.splice (20, 7, 487000);
+log(price, 'Week End House Prices');
