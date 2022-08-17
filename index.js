@@ -11,7 +11,7 @@ for(let i = 0; i < ages.length; i++){
 console.log (total/ages.length);
 
 var names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"];
-//console.log (names);
+console.log (names);
 var letters = 0;
 var cat = '';
 var nameLengths = [];
@@ -25,13 +25,11 @@ for (let i = 0; i < names.length; i++){
     letters+=names[i].length;
 }
 console.log (nameLengths);
-//console.log(cat);
+console.log(cat);
+ages [ages.length-1];
+console.log ('the last element of ages is: ' + ages[ages.length-1]); 
 
-//ages [ages.length-1];
-//console.log ('the last element of ages is: ' + ages[ages.length-1]); 
-
-
-//console.log ('the first element of ages is: ' + ages[0]); 
+console.log ('the first element of ages is: ' + ages[0]); 
 total=0;
 for (let i = 0; i < nameLengths.length; i++) {
 total += nameLengths [i];
@@ -49,9 +47,9 @@ return results;
 console.log(repeatCat("Hello", 3));
 
 
-// function createFullName(firstName, lastName) {
-   // return firstName + ' ' + lastName;
-// }
+function createFullName(firstName, lastName) {
+return firstName + ' ' + lastName;
+}
 
 
 function sumArray(numbers)
