@@ -15,7 +15,7 @@ function log(prices, message) {
 }
 
 var price=[469900, 309000, 432000, 535000, 675000, 659900, 267000, 449900, 519000, 515000]
-log(price, 'Initial House Prices');
+log(price, 'Initial Weekly House Prices');
 price.push(46300, 464500, 230000)
 log(price);
 price.push(650000, 525000, 410000, 399000)
